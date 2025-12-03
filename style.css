@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.description {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+select {
+    padding: 8px;
+    margin: 15px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.event-name {
+    font-size: 18px;
+    margin: 20px 0;
+    font-weight: bold;
+    color: #333;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 25px 0;
+    flex-wrap: wrap;
+}
+
+.time-unit {
+    padding: 15px 10px;
+    border-radius: 5px;
+    min-width: 70px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.number {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.label {
+    font-size: 12px;
+    margin-top: 5px;
+    color: #666;
+}
+
+/* Colores segun el tiempo restante */
+.color-green {
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+}
+
+.color-orange {
+    background-color: #ffeaa7;
+    border: 1px solid #fdcb6e;
+}
+
+.color-red {
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+}
